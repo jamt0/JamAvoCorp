@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:telling/data/models/env_config/environment.dart';
-import 'package:telling/models/preferences.dart';
-import 'package:telling/data/models/response_base.dart';
+import 'package:jam_avo_corp/data/models/env_config/environment.dart';
+import 'package:jam_avo_corp/models/preferences.dart';
+import 'package:jam_avo_corp/data/models/response_base.dart';
 
 abstract class BaseApi<T> {
   static final Dio dio = Dio();

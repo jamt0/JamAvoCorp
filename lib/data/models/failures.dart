@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:telling/data/models/response_base.dart';
+import 'package:jam_avo_corp/data/models/response_base.dart';
 
 class Failure extends Equatable {
   const Failure({

@@ -1,10 +1,10 @@
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:telling/data/models/env_config/base_config.dart';
-import 'package:telling/data/models/env_config/dev_config.dart';
-import 'package:telling/data/models/env_config/local_config.dart';
-import 'package:telling/data/models/env_config/prod_config.dart';
-import 'package:telling/data/models/env_config/qa_config.dart';
-import 'package:telling/utils/constants/enums.dart';
+import 'package:jam_avo_corp/data/models/env_config/base_config.dart';
+import 'package:jam_avo_corp/data/models/env_config/dev_config.dart';
+import 'package:jam_avo_corp/data/models/env_config/local_config.dart';
+import 'package:jam_avo_corp/data/models/env_config/prod_config.dart';
+import 'package:jam_avo_corp/data/models/env_config/qa_config.dart';
+import 'package:jam_avo_corp/utils/constants/enums.dart';
 
 class Environment {
   factory Environment() {

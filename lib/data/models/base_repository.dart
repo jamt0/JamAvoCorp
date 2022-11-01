@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:telling/data/models/failures.dart';
-import 'package:telling/data/models/response_base.dart';
+import 'package:jam_avo_corp/data/models/failures.dart';
+import 'package:jam_avo_corp/data/models/response_base.dart';
 
 typedef ApiCallFunction<T> = Future<ResponseBase<T>> Function();
 

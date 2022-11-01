@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
-import 'package:telling/utils/helpers/cool_functions.dart';
+import 'package:jam_avo_corp/utils/helpers/cool_functions.dart';
 
 class ErrorInputMessage {
   final String id;
